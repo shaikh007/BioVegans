@@ -95,6 +95,9 @@ function store() {
     } else if (email.length == 0) {
         alert('Please fill in email');
 
+    } else if (!email.match("@")) {
+        alert("please add the @ for mail")
+
     } else if (pw.length == 0) {
         alert('Please fill in password');
 
